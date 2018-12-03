@@ -80,54 +80,56 @@
 				"xMun": "SANTA MARIA",
 				"UF": "RS"
 			},
-			"det": 
-			{
-				"@nItem": "1",
-				"prod": 
+			"det":
+			[
 				{
-					"cProd": "AEMD387BZA",
-					"cEAN": "0885909545759",
-					"xProd": "MAC MINI COREI5 4GB500 | 0885909545759| Rua: A",
-					"NCM": "84715010",
-					"CFOP": "5929",
-					"uCom": "PC",
-					"qCom": "1.0000",
-					"vUnCom": "2269.0000",
-					"vProd": "2269.00",
-					"cEANTrib": "0885909545759",
-					"uTrib": "PC",
-					"qTrib": "1.0000",
-					"vUnTrib": "2269.0000",
-					"indTot": "1"
-				},
-				"imposto": 
-				{
-					"ICMS": 
+					"@nItem": "1",
+					"prod": 
 					{
-						"ICMS60": 
-						{
-							"orig": "2",
-							"CST": "60",
-							"vBCSTRet": "2229.90",
-							"vICMSSTRet": "76.91"
-						}
+						"cProd": "AEMD387BZA",
+						"cEAN": "0885909545759",
+						"xProd": "MAC MINI COREI5 4GB500 | 0885909545759| Rua: A",
+						"NCM": "84715010",
+						"CFOP": "5929",
+						"uCom": "PC",
+						"qCom": "1.0000",
+						"vUnCom": "2269.0000",
+						"vProd": "2269.00",
+						"cEANTrib": "0885909545759",
+						"uTrib": "PC",
+						"qTrib": "1.0000",
+						"vUnTrib": "2269.0000",
+						"indTot": "1"
 					},
-					"PIS": 
+					"imposto": 
 					{
-						"PISNT": 
+						"ICMS": 
 						{
-							"CST": "08"
-						}
-					},
-					"COFINS": 
-					{
-						"COFINSNT": 
+							"ICMS60": 
+							{
+								"orig": "2",
+								"CST": "60",
+								"vBCSTRet": "2229.90",
+								"vICMSSTRet": "76.91"
+							}
+						},
+						"PIS": 
 						{
-							"CST": "08"
+							"PISNT": 
+							{
+								"CST": "08"
+							}
+						},
+						"COFINS": 
+						{
+							"COFINSNT": 
+							{
+								"CST": "08"
+							}
 						}
 					}
 				}
-			},
+			],
 			"total": 
 			{
 				"ICMSTot": 

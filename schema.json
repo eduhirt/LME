@@ -1,0 +1,1287 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "The Root Schema",
+	"description": "JSON Schema para NFe Brasileiras",
+	"type": "object",
+	"properties": {
+		"@versao": {
+			"$id": "#/properties/@versao",
+			"title": "The @versao Schema",
+			"type": "string",
+			"pattern": "^(.*)$",
+			"default": ""
+		},
+		"NFe": {
+			"$id": "#/properties/NFe",
+			"title": "The Nfe Schema",
+			"type": "object",
+			"properties": {
+				"infNFe": {
+					"$id": "#/properties/NFe/properties/infNFe",
+					"title": "The Infnfe Schema",
+					"type": "object",
+					"properties": {
+						"@Id": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/@Id",
+							"title": "The @id Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"@versao": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/@versao",
+							"title": "The @versao Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"ide": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/ide",
+							"title": "The Ide Schema",
+							"type": "object",
+							"properties": {
+								"cUF": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/cUF",
+									"title": "The Cuf Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"cNF": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/cNF",
+									"title": "The Cnf Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"natOp": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/natOp",
+									"title": "The Natop Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"indPag": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/indPag",
+									"title": "The Indpag Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"mod": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/mod",
+									"title": "The Mod Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"serie": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/serie",
+									"title": "The Serie Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"nNF": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/nNF",
+									"title": "The Nnf Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"dEmi": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/dEmi",
+									"title": "The Demi Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"tpNF": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/tpNF",
+									"title": "The Tpnf Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"cMunFG": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/cMunFG",
+									"title": "The Cmunfg Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"tpImp": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/tpImp",
+									"title": "The Tpimp Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"tpEmis": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/tpEmis",
+									"title": "The Tpemis Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"cDV": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/cDV",
+									"title": "The Cdv Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"tpAmb": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/tpAmb",
+									"title": "The Tpamb Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"finNFe": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/finNFe",
+									"title": "The Finnfe Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"procEmi": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/procEmi",
+									"title": "The Procemi Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"verProc": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/ide/properties/verProc",
+									"title": "The Verproc Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								}
+							},
+							"required": [
+								"cUF",
+								"cNF",
+								"natOp",
+								"indPag",
+								"mod",
+								"serie",
+								"nNF",
+								"dEmi",
+								"tpNF",
+								"cMunFG",
+								"tpImp",
+								"tpEmis",
+								"cDV",
+								"tpAmb",
+								"finNFe",
+								"procEmi",
+								"verProc"
+							]
+						},
+						"emit": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/emit",
+							"title": "The Emit Schema",
+							"type": "object",
+							"properties": {
+								"CNPJ": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/CNPJ",
+									"title": "The Cnpj Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"xNome": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/xNome",
+									"title": "The Xnome Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"xFant": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/xFant",
+									"title": "The Xfant Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"enderEmit": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit",
+									"title": "The Enderemit Schema",
+									"type": "object",
+									"properties": {
+										"xLgr": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/xLgr",
+											"title": "The Xlgr Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"nro": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/nro",
+											"title": "The Nro Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xCpl": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/xCpl",
+											"title": "The Xcpl Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xBairro": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/xBairro",
+											"title": "The Xbairro Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"cMun": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/cMun",
+											"title": "The Cmun Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xMun": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/xMun",
+											"title": "The Xmun Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"UF": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/UF",
+											"title": "The Uf Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"CEP": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/CEP",
+											"title": "The Cep Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"cPais": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/cPais",
+											"title": "The Cpais Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xPais": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/xPais",
+											"title": "The Xpais Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"fone": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/enderEmit/properties/fone",
+											"title": "The Fone Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"xLgr",
+										"nro",
+										"xBairro",
+										"cMun",
+										"xMun",
+										"UF",
+										"CEP",
+										"cPais",
+										"xPais"
+									]
+								},
+								"IE": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/IE",
+									"title": "The Ie Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"CRT": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/emit/properties/CRT",
+									"title": "The Crt Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								}
+							},
+							"required": [
+								"CNPJ",
+								"xNome",
+								"xFant",
+								"enderEmit",
+								"IE",
+								"CRT"
+							]
+						},
+						"dest": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/dest",
+							"title": "The Dest Schema",
+							"type": "object",
+							"properties": {
+								"CPF": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/CPF",
+									"title": "The Cpf Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"xNome": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/xNome",
+									"title": "The Xnome Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"enderDest": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest",
+									"title": "The Enderdest Schema",
+									"type": "object",
+									"properties": {
+										"xLgr": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/xLgr",
+											"title": "The Xlgr Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"nro": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/nro",
+											"title": "The Nro Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xCpl": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/xCpl",
+											"title": "The Xcpl Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xBairro": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/xBairro",
+											"title": "The Xbairro Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"cMun": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/cMun",
+											"title": "The Cmun Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xMun": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/xMun",
+											"title": "The Xmun Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"UF": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/UF",
+											"title": "The Uf Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"CEP": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/CEP",
+											"title": "The Cep Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"cPais": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/cPais",
+											"title": "The Cpais Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"xPais": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/xPais",
+											"title": "The Xpais Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"fone": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/enderDest/properties/fone",
+											"title": "The Fone Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"xLgr",
+										"nro",
+										"xCpl",
+										"xBairro",
+										"cMun",
+										"xMun",
+										"UF",
+										"CEP",
+										"cPais",
+										"xPais",
+										"fone"
+									]
+								},
+								"IE": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/IE",
+									"title": "The Ie Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"email": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/dest/properties/email",
+									"title": "The Email Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								}
+							},
+							"required": [
+								"CPF",
+								"xNome",
+								"enderDest",
+								"IE",
+								"email"
+							]
+						},
+						"entrega": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/entrega",
+							"title": "The Entrega Schema",
+							"type": "object",
+							"properties": {
+								"CPF": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/CPF",
+									"title": "The Cpf Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"xLgr": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/xLgr",
+									"title": "The Xlgr Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"nro": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/nro",
+									"title": "The Nro Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"xCpl": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/xCpl",
+									"title": "The Xcpl Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"xBairro": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/xBairro",
+									"title": "The Xbairro Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"cMun": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/cMun",
+									"title": "The Cmun Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"xMun": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/xMun",
+									"title": "The Xmun Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"UF": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/entrega/properties/UF",
+									"title": "The Uf Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								}
+							},
+							"required": [
+								"CPF",
+								"xLgr",
+								"nro",
+								"xCpl",
+								"xBairro",
+								"cMun",
+								"xMun",
+								"UF"
+							]
+						},
+						"det": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/det",
+							"title": "The Det Schema",
+							"type": "array",
+							"items": {
+								"$id": "#/properties/NFe/properties/infNFe/properties/det/items",
+								"title": "The Items Schema",
+								"type": "object",
+								"properties": {
+									"@nItem": {
+										"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/@nItem",
+										"title": "The @nitem Schema",
+										"type": "string",
+										"default": ""
+									},
+									"prod": {
+										"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod",
+										"title": "The Prod Schema",
+										"type": "object",
+										"properties": {
+											"cProd": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/cProd",
+												"title": "The Cprod Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"cEAN": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/cEAN",
+												"title": "The Cean Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"xProd": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/xProd",
+												"title": "The Xprod Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"NCM": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/NCM",
+												"title": "The Ncm Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"CFOP": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/CFOP",
+												"title": "The Cfop Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"uCom": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/uCom",
+												"title": "The Ucom Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"qCom": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/qCom",
+												"title": "The Qcom Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"vUnCom": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/vUnCom",
+												"title": "The Vuncom Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"vProd": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/vProd",
+												"title": "The Vprod Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"cEANTrib": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/cEANTrib",
+												"title": "The Ceantrib Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"uTrib": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/uTrib",
+												"title": "The Utrib Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"qTrib": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/qTrib",
+												"title": "The Qtrib Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"vUnTrib": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/vUnTrib",
+												"title": "The Vuntrib Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											},
+											"indTot": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/prod/properties/indTot",
+												"title": "The Indtot Schema",
+												"type": "string",
+												"pattern": "^(.*)$",
+												"default": ""
+											}
+										},
+										"required": [
+											"cProd",
+											"cEAN",
+											"xProd",
+											"NCM",
+											"CFOP",
+											"uCom",
+											"qCom",
+											"vUnCom",
+											"vProd",
+											"cEANTrib",
+											"uTrib",
+											"qTrib",
+											"vUnTrib",
+											"indTot"
+										]
+									},
+									"imposto": {
+										"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto",
+										"title": "The Imposto Schema",
+										"type": "object",
+										"properties": {
+											"ICMS": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/ICMS",
+												"title": "The Icms Schema",
+												"type": "object",
+												"properties": {
+													"ICMS60": {
+														"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/ICMS/properties/ICMS60",
+														"title": "The Icms60 Schema",
+														"type": "object",
+														"properties": {
+															"orig": {
+																"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/ICMS/properties/ICMS60/properties/orig",
+																"title": "The Orig Schema",
+																"type": "string",
+																"pattern": "^(.*)$",
+																"default": ""
+															},
+															"CST": {
+																"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/ICMS/properties/ICMS60/properties/CST",
+																"title": "The Cst Schema",
+																"type": "string",
+																"pattern": "^(.*)$",
+																"default": ""
+															},
+															"vBCSTRet": {
+																"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/ICMS/properties/ICMS60/properties/vBCSTRet",
+																"title": "The Vbcstret Schema",
+																"type": "string",
+																"pattern": "^(.*)$",
+																"default": ""
+															},
+															"vICMSSTRet": {
+																"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/ICMS/properties/ICMS60/properties/vICMSSTRet",
+																"title": "The Vicmsstret Schema",
+																"type": "string",
+																"pattern": "^(.*)$",
+																"default": ""
+															}
+														},
+														"required": [
+															"orig",
+															"CST",
+															"vBCSTRet",
+															"vICMSSTRet"
+														]
+													}
+												},
+												"required": [
+												]
+											},
+											"PIS": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/PIS",
+												"title": "The Pis Schema",
+												"type": "object",
+												"properties": {
+													"PISNT": {
+														"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/PIS/properties/PISNT",
+														"title": "The Pisnt Schema",
+														"type": "object",
+														"properties": {
+															"CST": {
+																"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/PIS/properties/PISNT/properties/CST",
+																"title": "The Cst Schema",
+																"type": "string",
+																"pattern": "^(.*)$",
+																"default": ""
+															}
+														},
+														"required": [
+														]
+													}
+												},
+												"required": [
+												]
+											},
+											"COFINS": {
+												"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/COFINS",
+												"title": "The Cofins Schema",
+												"type": "object",
+												"properties": {
+													"COFINSNT": {
+														"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/COFINS/properties/COFINSNT",
+														"title": "The Cofinsnt Schema",
+														"type": "object",
+														"properties": {
+															"CST": {
+																"$id": "#/properties/NFe/properties/infNFe/properties/det/items/properties/imposto/properties/COFINS/properties/COFINSNT/properties/CST",
+																"title": "The Cst Schema",
+																"type": "string",
+																"pattern": "^(.*)$",
+																"default": ""
+															}
+														},
+														"required": [
+														]
+													}
+												},
+												"required": [
+												]
+											}
+										},
+										"required": [
+											"ICMS",
+											"PIS",
+											"COFINS"
+										]
+									}
+								},
+								"required": [
+									"@nItem",
+									"prod",
+									"imposto"
+								]
+							}
+						},
+						"total": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/total",
+							"title": "The Total Schema",
+							"type": "object",
+							"properties": {
+								"ICMSTot": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot",
+									"title": "The Icmstot Schema",
+									"type": "object",
+									"properties": {
+										"vBC": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vBC",
+											"title": "The Vbc Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vICMS": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vICMS",
+											"title": "The Vicms Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vBCST": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vBCST",
+											"title": "The Vbcst Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vST": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vST",
+											"title": "The Vst Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vProd": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vProd",
+											"title": "The Vprod Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vFrete": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vFrete",
+											"title": "The Vfrete Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vSeg": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vSeg",
+											"title": "The Vseg Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vDesc": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vDesc",
+											"title": "The Vdesc Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vII": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vII",
+											"title": "The Vii Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vIPI": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vIPI",
+											"title": "The Vipi Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vPIS": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vPIS",
+											"title": "The Vpis Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vCOFINS": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vCOFINS",
+											"title": "The Vcofins Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vOutro": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vOutro",
+											"title": "The Voutro Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"vNF": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/total/properties/ICMSTot/properties/vNF",
+											"title": "The Vnf Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"vBC",
+										"vICMS",
+										"vBCST",
+										"vST",
+										"vProd",
+										"vFrete",
+										"vSeg",
+										"vDesc",
+										"vII",
+										"vIPI",
+										"vPIS",
+										"vCOFINS",
+										"vOutro",
+										"vNF"
+									]
+								}
+							},
+							"required": [
+								"ICMSTot"
+							]
+						},
+						"transp": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/transp",
+							"title": "The Transp Schema",
+							"type": "object",
+							"properties": {
+								"modFrete": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/transp/properties/modFrete",
+									"title": "The Modfrete Schema",
+									"type": "string",
+									"pattern": "^(.*)$",
+									"default": ""
+								},
+								"vol": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/transp/properties/vol",
+									"title": "The Vol Schema",
+									"type": "object",
+									"properties": {
+										"qVol": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/transp/properties/vol/properties/qVol",
+											"title": "The Qvol Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"esp": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/transp/properties/vol/properties/esp",
+											"title": "The Esp Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"pesoL": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/transp/properties/vol/properties/pesoL",
+											"title": "The Pesol Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"pesoB": {
+											"$id": "#/properties/NFe/properties/infNFe/properties/transp/properties/vol/properties/pesoB",
+											"title": "The Pesob Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"qVol",
+										"pesoL",
+										"pesoB"
+									]
+								}
+							},
+							"required": [
+								"modFrete",
+								"vol"
+							]
+						},
+						"infAdic": {
+							"$id": "#/properties/NFe/properties/infNFe/properties/infAdic",
+							"title": "The Infadic Schema",
+							"type": "object",
+							"properties": {
+								"infCpl": {
+									"$id": "#/properties/NFe/properties/infNFe/properties/infAdic/properties/infCpl",
+									"title": "The Infcpl Schema",
+									"type": "string",
+									"default": ""
+								}
+							},
+							"required": [
+								"infCpl"
+							]
+						}
+					},
+					"required": [
+						"@Id",
+						"@versao",
+						"ide",
+						"emit",
+						"dest",
+						"det",
+						"total",
+						"transp",
+						"infAdic"
+					]
+				},
+				"Signature": {
+					"$id": "#/properties/NFe/properties/Signature",
+					"title": "The Signature Schema",
+					"type": "object",
+					"properties": {
+						"SignedInfo": {
+							"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo",
+							"title": "The Signedinfo Schema",
+							"type": "object",
+							"properties": {
+								"CanonicalizationMethod": {
+									"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/CanonicalizationMethod",
+									"title": "The Canonicalizationmethod Schema",
+									"type": "object",
+									"properties": {
+										"@Algorithm": {
+											"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/CanonicalizationMethod/properties/@Algorithm",
+											"title": "The @algorithm Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"@Algorithm"
+									]
+								},
+								"SignatureMethod": {
+									"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/SignatureMethod",
+									"title": "The Signaturemethod Schema",
+									"type": "object",
+									"properties": {
+										"@Algorithm": {
+											"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/SignatureMethod/properties/@Algorithm",
+											"title": "The @algorithm Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"@Algorithm"
+									]
+								},
+								"Reference": {
+									"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference",
+									"title": "The Reference Schema",
+									"type": "object",
+									"properties": {
+										"@URI": {
+											"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/@URI",
+											"title": "The @uri Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										},
+										"Transforms": {
+											"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/Transforms",
+											"title": "The Transforms Schema",
+											"type": "object",
+											"properties": {
+												"Transform": {
+													"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/Transforms/properties/Transform",
+													"title": "The Transform Schema",
+													"type": "array",
+													"items": {
+														"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/Transforms/properties/Transform/items",
+														"title": "The Items Schema",
+														"type": "object",
+														"properties": {
+															"@Algorithm": {
+																"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/Transforms/properties/Transform/items/properties/@Algorithm",
+																"title": "The @algorithm Schema",
+																"type": "string",
+																"pattern": "^(.*)$",
+																"default": ""
+															}
+														},
+														"required": [
+															"@Algorithm"
+														]
+													}
+												}
+											},
+											"required": [
+												"Transform"
+											]
+										},
+										"DigestMethod": {
+											"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/DigestMethod",
+											"title": "The Digestmethod Schema",
+											"type": "object",
+											"properties": {
+												"@Algorithm": {
+													"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/DigestMethod/properties/@Algorithm",
+													"title": "The @algorithm Schema",
+													"type": "string",
+													"pattern": "^(.*)$",
+													"default": ""
+												}
+											},
+											"required": [
+												"@Algorithm"
+											]
+										},
+										"DigestValue": {
+											"$id": "#/properties/NFe/properties/Signature/properties/SignedInfo/properties/Reference/properties/DigestValue",
+											"title": "The Digestvalue Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"@URI",
+										"Transforms",
+										"DigestMethod",
+										"DigestValue"
+									]
+								}
+							},
+							"required": [
+								"CanonicalizationMethod",
+								"SignatureMethod",
+								"Reference"
+							]
+						},
+						"SignatureValue": {
+							"$id": "#/properties/NFe/properties/Signature/properties/SignatureValue",
+							"title": "The Signaturevalue Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"KeyInfo": {
+							"$id": "#/properties/NFe/properties/Signature/properties/KeyInfo",
+							"title": "The Keyinfo Schema",
+							"type": "object",
+							"properties": {
+								"X509Data": {
+									"$id": "#/properties/NFe/properties/Signature/properties/KeyInfo/properties/X509Data",
+									"title": "The X509data Schema",
+									"type": "object",
+									"properties": {
+										"X509Certificate": {
+											"$id": "#/properties/NFe/properties/Signature/properties/KeyInfo/properties/X509Data/properties/X509Certificate",
+											"title": "The X509certificate Schema",
+											"type": "string",
+											"pattern": "^(.*)$",
+											"default": ""
+										}
+									},
+									"required": [
+										"X509Certificate"
+									]
+								}
+							},
+							"required": [
+								"X509Data"
+							]
+						}
+					},
+					"required": [
+						"SignedInfo",
+						"SignatureValue",
+						"KeyInfo"
+					]
+				}
+			},
+			"required": [
+				"infNFe",
+				"Signature"
+			]
+		},
+		"protNFe": {
+			"$id": "#/properties/protNFe",
+			"title": "The Protnfe Schema",
+			"type": "object",
+			"properties": {
+				"@versao": {
+					"$id": "#/properties/protNFe/properties/@versao",
+					"title": "The @versao Schema",
+					"type": "string",
+					"pattern": "^(.*)$",
+					"default": ""
+				},
+				"infProt": {
+					"$id": "#/properties/protNFe/properties/infProt",
+					"title": "The Infprot Schema",
+					"type": "object",
+					"properties": {
+						"tpAmb": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/tpAmb",
+							"title": "The Tpamb Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"verAplic": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/verAplic",
+							"title": "The Veraplic Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"chNFe": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/chNFe",
+							"title": "The Chnfe Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"dhRecbto": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/dhRecbto",
+							"title": "The Dhrecbto Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"nProt": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/nProt",
+							"title": "The Nprot Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"digVal": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/digVal",
+							"title": "The Digval Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"cStat": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/cStat",
+							"title": "The Cstat Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						},
+						"xMotivo": {
+							"$id": "#/properties/protNFe/properties/infProt/properties/xMotivo",
+							"title": "The Xmotivo Schema",
+							"type": "string",
+							"pattern": "^(.*)$",
+							"default": ""
+						}
+					},
+					"required": [
+						"tpAmb",
+						"verAplic",
+						"chNFe",
+						"dhRecbto",
+						"nProt",
+						"digVal",
+						"cStat",
+						"xMotivo"
+					]
+				}
+			},
+			"required": [
+				"@versao",
+				"infProt"
+			]
+		}
+	},
+	"required": [
+		"@versao",
+		"NFe",
+		"protNFe"
+	],
+	"definitions": {},
+	"$id": "http://example.com/root.json"
+}
